@@ -24,12 +24,12 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 
-tr:nth-child(12), tr:nth-child(15) {
+tr:nth-child(11), tr:nth-child(15) {
   background-color: #9c9c9c;
 
 }
 
-tr:nth-child(9), tr:nth-child(13) {
+tr:nth-child(8), tr:nth-child(13) {
   font-style: oblique;
 }
 
