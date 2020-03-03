@@ -1,0 +1,113 @@
+/*@import "common.css";*/
+
+
+body{
+  background-color: width;
+}
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+
+}
+
+td, th {
+  /*border: 1px solid #dddddd;*/
+
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+tr:nth-child(12), tr:nth-child(16) {
+  background-color: #9c9c9c;
+
+}
+
+tr:nth-child(10), tr:nth-child(13) {
+  font-style: oblique;
+}
+
+#info article{
+  padding: 25px 25px 25px 25px;
+}
+
+#info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #dddddd;
+  margin-top: 20px;
+  /*border-style: solid;*/
+}
+h2{
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  font-family: arial, sans-serif;
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #dddddd;
+}
+
+#semester{
+  font-family: arial, sans-serif;
+  font-style: oblique;
+  font-size: 90%
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #4a4a4a;
+  padding: 0px 20px 0px 20px
+}
+
+header, footer {
+  font-size: large;
+  text-align: center;
+  padding: 0.3em 0;
+  background-color: #4a4a4a;
+  color: #f9f9f9;
+
+}
+
+#context {
+  font-size: 60%;
+  text-align: center;
+  padding: 0.1em 0;
+  background-color: #888888;
+  color: #f9f9f9;
+  padding: 25px 25px 25px 25px;
+}
+
+h1 {
+  font-size: medium;
+  text-align: center;
+  padding: 0.1em 0;
+  background-color: #888888;
+  color: #f9f9f9;
+}
+
+nav {
+  background: #eee;
+}
+
+main {
+  background: #f9f9f9;
+}
+
+aside {
+  background: #eee;
+}
